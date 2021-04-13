@@ -1,3 +1,1 @@
-In this project i am building rock scissors stone project. this is a simple game that is modelled the rock scissors stone we've all been playing. in this project i hope to learn how to use javascript functions creatively to make a fully functioning game. 
-
-Also i want to improve my ability to create awesome interface using css design techniques.
+In this project, I am building an online platform for the common rock, scissors, stone we normally play when stuck with a decision that we mihgt need a random element to make a rather difficult decision. This project is part of the OT assignments as part of the process of learning to become a fullstack developer. In this project I learned a lot of useful techniques and I will write a blog post detailing my whole development process.
