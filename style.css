@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-y: hidden;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  height: 90vh;
+  display: flex;
+  background: linear-gradient(#a85a64, #253863);
+  justify-content: center;
+  align-items: center;
+}
+
+.usr-board {
+  flex: 1;
+  margin: 5px;
+  height: 400px;
+  background-image: url('./img/blogging.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.usr-selct {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 120%;
+}
+
+.usr-selct .usr {
+  border: 1px solid #fff;
+  margin-bottom: 10px;
+  height: 50px;
+  width: 50px;
+  background-color: #faf9fa;
+  border-radius: 50%;
+  margin-right: 10px;
+  text-align: center;
+  color: #b08561;
+  padding-top: 7px;
+  cursor: pointer;
+}
+
+.score-board {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 400px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.scores,
+.actual-scores {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.score-heading,
+.main {
+  color: #f0efe7;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+}
+
+.usr-score,
+.usr-a-score {
+  padding-left: 15px;
+  color: #f0efe7;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.usr-a-score {
+  padding-left: 60px;
+  font-size: 32px;
+}
+
+.comp-score,
+.comp-a-a-score {
+  padding-right: 15px;
+  color: #f0efe7;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.comp-a-a-score {
+  padding-right: 95px;
+  font-size: 32px;
+}
+
+.message-board .sub {
+  text-align: center;
+  color: #f0efe7;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+}
+
+.comp-board {
+  flex: 1;
+  margin-right: 15px;
+  height: 400px;
+  background-image: url('./img/artificial-intelligence.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#restart {
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  box-shadow: 1px 1px 5px #f8f5f5;
+}
+
+#restart:focus {
+  outline: none;
+  transition: 0.5s ease;
+}
+
+#restart:hover {
+  transform: scale(1.3);
+}
+
+.btn-container {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  background: linear-gradient(to bottom right, #a85a64, #253863);
+  justify-content: center;
+  align-items: center;
+}

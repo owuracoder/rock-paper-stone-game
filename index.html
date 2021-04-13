@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4960d39a97.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Puzzle Game</title>
+</head>
+<body>
+    <div class="container">
+        <div class="usr-board">
+            <div class="usr-selct">
+                <div class="usr btn-stone"><i id="stone" class="fas fa-hand-rock fa-2x"></i></div> 
+                <div class="usr btn-paper"><i id="paper" class="fas fa-hand-paper fa-2x"></i></div> 
+                <div class="usr btn-scissors"><i id="scissors" class="fas fa-hand-scissors fa-2x"></i></div> 
+            </div>
+        </div>
+        <div class="score-board">
+            <h2 class="score-heading">Rounds <span class="rounds"></span></h2>
+            <div class="scores">
+                <p class="usr-score">Player Wins</p>
+                <p class="comp-score">Computer Wins</p>
+            </div>
+            <div class="actual-scores">
+                <p class="usr-a-score">4</p>
+                <p class="comp-a-a-score">5</p>
+            </div>
+            <div class="message-board">
+                <h3 class="main">Message Board</h3>
+                <h3 class="sub">computer wins</h3>
+            </div>   
+        </div>
+        <div class="comp-board">
+        </div>
+    </div>
+    <div class="btn-container">
+        <button id="restart">Restart</button>
+    </div>
+   <script src="./script.js"></script>
+</body>
+</html>
